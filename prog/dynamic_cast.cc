@@ -13,7 +13,7 @@ main()
 
 
   } else {
-    perror("dlopen");
+    fprintf(stderr, "dlopen: %s\n", dlerror());
     return EX_SOFTWARE;
   }
 }
