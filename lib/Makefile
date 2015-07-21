@@ -11,6 +11,6 @@ SRCS+=		\
     downcast.cc
 
 WARNS=		9
-CFLAGS+=	-I${SRCDIR}
+CXXFLAGS+=	-I${SRCDIR}
 
 .include <bsd.lib.mk>
