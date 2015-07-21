@@ -7,7 +7,8 @@ SHLIB_MAJOR=	1
 LIB=		dynamic_cast
 
 SRCS+=		\
-    classes.cc
+    classes.cc \
+    downcast.cc
 
 WARNS=		9
 CFLAGS+=	-I${SRCDIR}

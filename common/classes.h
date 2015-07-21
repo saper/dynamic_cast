@@ -1,6 +1,8 @@
 class Parent {
-  virtual int something(void);
+  public:
+    virtual int something(void);
 };
-class Child : Parent {
-  virtual int something(void);
+class Child : public Parent {
+  public:
+    virtual int something(void);
 };
