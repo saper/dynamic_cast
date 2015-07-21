@@ -10,15 +10,14 @@
 This utility tests how C++ 
 .Fn dynamic_cast<Child*>
 casting works across shared modules linked at run-time.
-
+.Pp
 Downcasting is an attempt to cast a pointer of the value of a base class
 to the value of a derived class, provided the runtime type information
 (RTTI) is provided. The
 .Fn dynamic_cast
 operator fails if the object is not an intance of a derived class.
-
+.Pp
 In this example downcasting is attempted in one module as well
 as via the library provided at run-time.
-
 .Sh AUTHOR
 Marcin Cieslak <saper@saper.info>
