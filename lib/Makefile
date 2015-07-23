@@ -4,7 +4,7 @@ SHLIB_MAJOR=	1
 
 .PATH: ${SRCDIR}
 
-LIB=		dynamic_cast
+LIB_CXX=		dynamic_cast
 
 SRCS+=		\
     classes.cc \
